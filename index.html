@@ -1,34 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="C:\Users\Rene\projects\Renes_portfolio_site\styles.css">
 
-<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-h1   {color: #001a33;
-		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-		font-size: 3.5em;
-		text-align: center
-}
+  	<style>
+ 
+   		 .row.content {height: 600px}
+    
+  		  .sidenav {
+ 	   	  background-color: rgb(12, 0, 38);
+ 	    	 height: 100%;
+ 		   }
+    
+ 	footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      font-size: 100%;
+    }
 
-footer  {color: #001a33;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 18px;
-    text-align: right;}
+ 	p {font-size: 125%}
 
-</style>
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+ 
+  </style>
 
-<h1>The World is a Puzzle</h1>
+<body>
 
-<div class="vertical-menu">
-  <a href="#" class="active">HOME</a>
-  <a href="#">STUDY</a>
-  <a href="#">WORK</a>
-  <a href="#">LIFE</a>
-</div> 
- <footer align="right">
-   <h3>Posted by: Ren&#233 Kreisel</h3>
-  <h3>Contact information: <a href="mailto:kreiselrd@gmail.com">kreiselrd@gmail.com</h3>.</p>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h4>Ren&#233's Website</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">About</a></li>
+        <li><a href="#section3">R&#233sum&#233</a></li>
+        <li><a href="#section3">Favorites</a></li>
+      </ul><br>
+    </div>
+
+<div class="container-fluid">  
+        <img src="dali.jpg" class="img-responsive" alt="Dragon Tiger Mountain" width="600" height="100"> 
+</div>
+
+    <div class="col-sm-6">
+     
+    	<p>When I was 6, I had a world map jigsaw puzzle. That's where I first learned of "exotic" places like Borneo, the Amazon river, and Mount Kilimanjaro.</p>
+		<p>Curiosity about the geography and cultures of the world has been the backdrop of my life ever since. It's taken me places I never thought I would go, and it's given me the opportunity to meet people from every continent (except Antarctica -- but I have met some awesome penguins).</p>
+      
+  </div>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+        <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">1</a></li>
+        <li><a href="#section2">2</a></li>
+        <li><a href="#section3">3</a></li>
+      </ul><br>
+    </div>
+<div>
+<footer class="container-fluid">Posted by: Ren&#233 Kreisel
+	<br></br>Contact information: <a href="mailto:kreiselrd@gmail.com">kreiselrd@gmail.com</h3>.
 </footer>
 </body>
 </head>
