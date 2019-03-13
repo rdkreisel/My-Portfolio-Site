@@ -1,9 +1,81 @@
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
+html, body {
+  box-sizing: border-box;
+  background-color:   #ffffb3;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px;
+  margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #00284d;  
+}
+
+.container > div:nth-child(3n) {
+  background-color: #8F9EA9;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #828282;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #828282;
+  }
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px auto auto auto;
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "m m i i i i i i i i i i"
+        "m m c c c c c c c c c c"
+        "m m f f f f f f f f f f";
+}
+
+.header {
+    grid-area: h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+
+.menu {
+  grid-area: m;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: #ffeead;
+}
+
+.image {
+  grid-area: i;
+  text-align: center;
+    max-width: 100%;
+  height: auto;
+}
+
+.content {
+  grid-area: c;
+    display: flex;
+  justify-content: left;
+  text-align: left;
+  font-size: large;
+  color: black;
+  padding: 15px;
+}
+
+.footer {
+    grid-area: f;
+    display: flex;
+    text-align: left;
+    font-size: medium;
+    color: white;
+    padding: 15px;
+}
+
