@@ -1,0 +1,85 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 50px auto auto;
+    grid-gap: 3px;
+}
+
+.header {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+    padding: 12px;
+  }
+
+.menu {
+  	grid-column: 1 / 2;
+    display: flex;
+  	justify-content: center;
+  	align-items: top;
+  	font-size: 2em;
+  	color: black;
+  	padding: 15px;
+}
+.employment {
+	grid-column: 2 / 8;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	font-size: 18px;
+	color: black;
+	padding: 15px;
+	text-align: left;
+}
+.education {
+	grid-column: 8 / -1;
+    display: flex;
+	justify-content: left;
+  	align-items: left;
+  	font-size: 18px;
+  	color: black;
+  	padding: 15px;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    display: flex;
+    text-align: left;
+    font-size: medium;
+    color: white;
+    padding: 15px;
+}
+
+html, body {
+  box-sizing: border-box;
+  background-color:   #ffffb3;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #00284d;  
+}
+
+.container > div:nth-child(2n) {
+  background-color: #828282;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #8F9EA9;
+}
+
+.container > div:nth-child(5n) {
+  background-color: #00284d;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #828282;
+}
+
