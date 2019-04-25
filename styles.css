@@ -48,6 +48,7 @@ html, body {
 .menu {
   grid-area: m;
   justify-content: center;
+  display: block;
   align-items: center;
   font-size: 1em;
   color: #ffeead;
@@ -76,6 +77,15 @@ html, body {
     text-align: left;
     font-size: medium;
     color: white;
-    padding: 15px;
+    padding: 15px;;
 }
 
+button {
+	background-color: #ffffb3;
+	width: 90%;
+	font-size: 30px;
+	border-radius: 2px;
+	height: 50px;
+	margin: 2px;
+	align-items: center;
+}
