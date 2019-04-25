@@ -18,7 +18,7 @@
 
 .menu {
   	grid-column: 1 / 2;
-    display: flex;
+    display: block;
   	justify-content: center;
   	align-items: top;
   	font-size: 2em;
@@ -59,7 +59,7 @@ html, body {
   background-color:   #ffffb3;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
+  padding: 12px;
   margin: 0px;
 }
 
@@ -81,5 +81,15 @@ html, body {
 
 .container > div:nth-child(4n) {
   background-color: #828282;
+}
+
+button {
+  background-color: #ffffb3;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 2px;
+  height: 50px;
+  margin: 2px;
+  align-items: center;
 }
 
