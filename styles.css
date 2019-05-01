@@ -7,6 +7,8 @@ html, body {
   margin: 0px;
 }
 
+
+
 .container > div:nth-child(1n) {
   background-color: #00284d;  
 }
@@ -45,13 +47,20 @@ html, body {
     color: #ffeead;
   }
 
+.ul#navigation {
+    color: black;
+    font-weight: bold;
+    background: #FFFF66; /* yellow */
+    border: 2px solid black;
+    padding: 1em;
+}
 .menu {
   grid-area: m;
   justify-content: center;
   display: block;
-  align-items: center;
+  align-items: left;
   font-size: 1em;
-  color: #ffeead;
+  color: black;
 }
 
 .image {
@@ -80,12 +89,3 @@ html, body {
     padding: 15px;;
 }
 
-button {
-	background-color: #ffffb3;
-	width: 90%;
-	font-size: 30px;
-	border-radius: 2px;
-	height: 50px;
-	margin: 2px;
-	align-items: center;
-}
