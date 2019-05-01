@@ -1,0 +1,90 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+}
+
+.horizontal {
+	grid-column: span 6;
+	grid-row: span 5;
+}
+
+.vertical {
+	grid-row: span 6;
+}
+
+.big {
+	grid-column: span 4;
+	grid-row: span 3;
+}
+
+.verybig {
+	grid-column: span 2;
+	grid-row: span 3;
+}
+
+.verticalbig {
+	grid-column: span 2;
+	grid-row: span 5;
+}
+
+.veryvertical {
+	grid-column: span 3;
+	grid-row: span 10;
+}
+
+.huge {
+	grid-column: span 4;
+	grid-row: span 6;
+}
+
+.wide {
+	grid-column: span 6;
+	grid-row: span 4;
+}
+
+.horizontalgarden {
+	grid-column: span 2;
+}
+
+.verticalgarden {
+	grid-row: span 2;
+}
+
+.biggarden {
+	grid-column: span 2;
+	grid-row: span 3;
+}
+
+.verybiggarden {
+	grid-column: span 3;
+	grid-row: span 3;
+}
+
+.verticalbiggarden {
+	grid-column: span 3;
+	grid-row: span 5;
+}
+
+.veryverticalgarden {
+	grid-column: span 3;
+	grid-row: span 9;
+}
+
+.hugegarden {
+	grid-column: span 4;
+	grid-row: span 6;
+}
+
+.widegarden {
+	grid-column: span 5;
+	grid-row: span 3;
+}
+
+.panorama {
+	grid-column: span 12;
+	grid-row: span 3;
+}
+
