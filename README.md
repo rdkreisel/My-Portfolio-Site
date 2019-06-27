@@ -25,3 +25,4 @@ https://github.com/rdkreisel/My-Portfolio-Site/blob/988ca6d81ec1b036aa355baa6276
 https://github.com/rdkreisel/My-Portfolio-Site/blob/988ca6d81ec1b036aa355baa627699de60db941a/images/dogpicgrid.png
 
 **Image grid 3 -- Garden pics
+https://github.com/rdkreisel/My-Portfolio-Site/blob/988ca6d81ec1b036aa355baa627699de60db941a/images/gardengrid.png
