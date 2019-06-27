@@ -18,5 +18,5 @@
 **Resume page using Cssgrid, small screen**
 ![_](https://github.com/rdkreisel/Images/blob/master/resumesmall.png)
 
-**Image grip 1
+**Image grid 1
 https://github.com/rdkreisel/My-Portfolio-Site/blob/988ca6d81ec1b036aa355baa627699de60db941a/images/coolplacesgrid.png
