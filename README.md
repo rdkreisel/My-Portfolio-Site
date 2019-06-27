@@ -20,3 +20,6 @@
 
 **Image grid 1
 https://github.com/rdkreisel/My-Portfolio-Site/blob/988ca6d81ec1b036aa355baa627699de60db941a/images/coolplacesgrid.png
+
+**Image grid 2 -- Dog pics
+https://github.com/rdkreisel/My-Portfolio-Site/blob/988ca6d81ec1b036aa355baa627699de60db941a/images/dogpicgrid.png
